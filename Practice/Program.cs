@@ -10,8 +10,7 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            //xxx
-            Console.Write("Hello world");
+          
         }
     }
 }
