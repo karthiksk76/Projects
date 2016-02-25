@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\LongestArithmeticProgression.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubstring.cs" />
     <Compile Include="DynamicProgramming\RegexMatch.cs" />

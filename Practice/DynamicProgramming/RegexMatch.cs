@@ -18,7 +18,7 @@ namespace Practice.DynamicProgramming
             bool[] m1 = new bool[myPattern.Length + 1];
             bool[] m2 = new bool[myPattern.Length + 1];
             m1[myPattern.Length] = true;
-            //1
+
             for (int i = input.Length - 1; i >= 0; --i)
             {
                 m2[myPattern.Length] = false;
