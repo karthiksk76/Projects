@@ -23,7 +23,11 @@ namespace Practice
         {
             //Run(new Sorting.InsertionSort());
             //Run(new Sorting.BubbleSort());
-            Run(new Sorting.HeapSort());
+            //Run(new Sorting.HeapSort());
+            //Run(new Sorting.QuickSort());
+            //Run(new DynamicProgramming.LongestCommonSubstring());
+            //Run(new DynamicProgramming.LongestCommonSubsequence());
+            Run(new DynamicProgramming.RegexMatch());
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Practice.Utilities
     {
         internal delegate T FromString<T>(string input);
 
-        internal static T[] ReadArray<T>(FromString<T> parser, string prompt = null)
+        internal static T[] ReadArray<T>(FromString<T> parser, string prompt = null) 
         {
             if (prompt == null)
             {
@@ -39,7 +39,21 @@ namespace Practice.Utilities
                     {
                         foreach(string token in tokens)
                         {
-                            list.Add(parser(token));
+                            uint count = 1;
+                            string val = token;
+                            int colonIdx = token.IndexOf(':');
+                            if (colonIdx >= 0)
+                            {
+                                count = uint.Parse(token.Substring(colonIdx + 1));
+                                val = token.Substring(0, colonIdx);
+                            }
+
+                            T entry = parser(val);
+
+                            for (uint i = 0; i < count; ++i)
+                            {
+                                list.Add(entry);
+                            }
                         }
 
                         output = list.ToArray();
