@@ -28,7 +28,11 @@ namespace Practice
             //Run(new DynamicProgramming.LongestCommonSubstring());
             //Run(new DynamicProgramming.LongestCommonSubsequence());
             //Run(new DynamicProgramming.RegexMatch());
-            Run(new DynamicProgramming.LongestArithmeticProgression());
+            //Run(new DynamicProgramming.LongestArithmeticProgression());
+            //Run(new StacksAndQueues.TestMaxStack());
+            //Run(new StacksAndQueues.TestMaxQueue());
+            //Run(new Arrays.SlidingWindowMax());
+            Run(new Arrays.LongestIncreasingSubsequence());
         }
     }
 }

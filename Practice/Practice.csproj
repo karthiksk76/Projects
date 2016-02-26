@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\BinarySearch.cs" />
+    <Compile Include="Arrays\LongestIncreasingSubsequence.cs" />
+    <Compile Include="Arrays\SlidingWindowMax.cs" />
     <Compile Include="DynamicProgramming\LongestArithmeticProgression.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubstring.cs" />
@@ -54,6 +57,10 @@
     <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="StacksAndQueues\MaxQueue.cs" />
+    <Compile Include="StacksAndQueues\MaxStack.cs" />
+    <Compile Include="StacksAndQueues\TestMaxQueue.cs" />
+    <Compile Include="StacksAndQueues\TestMaxStack.cs" />
     <Compile Include="Utilities\ArrayReader.cs" />
   </ItemGroup>
   <ItemGroup>
